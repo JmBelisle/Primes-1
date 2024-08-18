@@ -1,4 +1,4 @@
-
+# Changes JMB
 # Python Prime Sieve
 #
 # MyFirstPython Program (tm) Dave Plummer 8/9/2018
@@ -103,6 +103,7 @@ class prime_sieve(object):
 
         # Following 2 lines added by rbergen to conform to drag race output format
         stdout.write("\n");
+        print("Solution 1");
         print("davepl;" + str(passes) + ";" + str(duration) + ";1;algorithm=base,faithful=yes");
 
 
